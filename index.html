@@ -40,13 +40,21 @@ body {
       <h2>HDL</h2>
 
       <div class="input-group mb-3">
-        <input type="number" v-model.number = "hdlmmol" v-on:input="hdlmmol2mg" class="form-control" aria-describedby="basic-addon1">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">mg/L</span>
-        </div>
+         <input type="number" v-model.number = "hdlmmol" v-on:input="hdlmmol2mg" class="form-control" aria-describedby="basic-addon1">
+         <div class="input-group-prepend">
+           <span class="input-group-text" id="basic-addon1">mmol/L</span>
+         </div>
+      </div>
+
+      <div class="input-group mb-3">
+         <input type="number" v-model.number = "hdlmg" v-on:input="hdlmg2mmol" class="form-control" aria-describedby="basic-addon1">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">mg/L</span>
+          </div>
       </div>
     </div>
   </div>
+
 
 <h2>Trig:HDL Ratios</h2>
 
