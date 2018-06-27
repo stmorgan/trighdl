@@ -64,11 +64,11 @@ body {
     <div class="container">
       <div class="row">
         <div class="col-3">mmol/L:</div>
-        <div class="col-3"><span v-bind:class="{'bg-danger': badratio }">{{ ratiommol }}</span></div>
+        <div class="col-3"><span v-bind:class="{'bg-danger': badratio }">{{ ratiommol }}</span> (should be < 0.866)</div>
       </div>
        <div class="row">
         <div class="col-3">mg/dL:</div>
-        <div class="col-3"><span v-bind:class="{'bg-danger': badratio }">{{ ratiomg }}  </span></div>
+        <div class="col-3"><span v-bind:class="{'bg-danger': badratio }">{{ ratiomg }}  </span> (should be < 2.00)</div>
       </div>
     </div>
     <h2>Usage</h2>
